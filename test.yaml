@@ -12,4 +12,5 @@ appId: "com.appmaestroautomation.app"
 - hideKeyboard
 - tapOn:
     id: "button-login"
+- assertVisible: "Login realizado com sucesso!"
 - tapOn: "OK"
