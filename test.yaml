@@ -14,3 +14,10 @@ appId: "com.appmaestroautomation.app"
     id: "button-login"
 - assertVisible: "Login realizado com sucesso!"
 - tapOn: "OK"
+- tapOn:
+    id: input-email
+- eraseText
+- tapOn:
+    id: input-pass
+- eraseText
+- hideKeyboard
