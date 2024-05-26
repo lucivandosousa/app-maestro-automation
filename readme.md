@@ -1,6 +1,6 @@
 # App Mestro Automation
 
-App desenvolvido para automação de testes de interface mobile.
+App desenvolvido para automação de testes de interface mobile com framework maestro..
 
 ## Pré-requisitos
 
