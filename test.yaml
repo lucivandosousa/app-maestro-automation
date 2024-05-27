@@ -21,3 +21,21 @@ appId: "com.appmaestroautomation.app"
     id: input-pass
 - eraseText
 - hideKeyboard
+- tapOn:
+    id: input-email
+- inputText: "cliente@teste.com"
+- tapOn:
+    id: input-pass
+- inputText: "12345"
+- hideKeyboard
+- tapOn:
+    id: "button-login"
+- assertVisible: "Falha no login!"
+- tapOn: "OK"
+- tapOn:
+    id: input-email
+- eraseText
+- tapOn:
+    id: input-pass
+- eraseText
+- hideKeyboard
